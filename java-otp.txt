@@ -6,3 +6,6 @@ nohup java -jar otp-1.5.0-shaded.jar --autoReload --autoScan --basePath graphs -
 
 pkill -f "java -jar otp-1.5.0-shaded.jar"
 
+ps aux | grep java
+
+
